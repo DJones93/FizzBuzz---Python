@@ -1,0 +1,12 @@
+print("Please Enter a Number, If the Number is Dividable by 5, you will receive the answer of 'Fizz', If the Number is "
+      "Dividable by 3 you will receive the answer of 'Buzz', If it is Dividable by both, you will receive 'FizzBuzz', "
+      "Otherwise You Will Only Receive the Number Entered.")
+number = input()
+if int(number) % 5 == 0 & int(number) % 3 == 0:
+    print("FizzBuzz")
+elif int(number) % 5 == 0:
+    print("Fizz")
+elif int(number) % 3 == 0:
+    print("Buzz")
+else:
+    print(number)
